@@ -35,17 +35,17 @@
             <scope>test</scope>
         </dependency>
 
-
-
-    </dependencies>
-    <dependencyManagement>
-        <dependencies>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-amqp</artifactId>
                 <!-- <version>???</version> --> <!--(1)-->
             </dependency>
 
+
+    </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
